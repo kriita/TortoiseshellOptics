@@ -74,8 +74,6 @@ ul li {
   padding: 0 1rem;
 }
 
-/* Banner */
-
 header .flex {
   justify-content: flex-end;
 }
@@ -154,4 +152,116 @@ footer img {
 
 footer div {
   padding: 4rem 0;
+}
+
+/* ++ Small screens ++ */
+
+/* -- Laptop --*/
+
+@media only screen and (max-width: 1024px) {
+
+  /* Header */
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  nav.container {
+    max-width: 100%;
+  }
+
+  .headline {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .headline h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* -- Tablet -- */
+
+@media only screen and (max-width: 768px) {
+
+  /* Header */
+
+  .menu ul {
+    display: none;
+  }
+
+  .menu ul.phone-menu {
+    display: block;
+  }
+}
+
+/* -- Phone --*/
+
+@media only screen and (max-width: 568px) {
+
+  /* Header */
+
+  header div span {
+    display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .headline {
+    padding: 0 1rem;
+    margin: 10rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  /* Services */
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+
+  .service {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+
+  /* Info */
+
+  .info {
+    width: auto;
+  }
+
+  .info h4 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: 0.77rem;
+  }
+
+  /* Footer */
+
+  footer {
+    justify-content: center;
+  }
+
+  footer div {
+    display: none;
+  }
 }
