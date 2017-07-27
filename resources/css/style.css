@@ -1,0 +1,157 @@
+/* -- General -- */
+
+html {
+  background-color: white;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.75em 0;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* -- Header -- */
+
+header {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+nav {
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+nav div {
+  align-items: center;
+  display: flex;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+/* Banner */
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  display: inline-block;
+  line-height: 2.4rem;
+  margin-right: -2rem;
+  margin-top: 10rem;
+  padding: 0.75rem 5rem;
+}
+
+.headline h1 {
+}
+
+/* -- Main Content -- */
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  justify-content: space-between;
+  padding: 3rem;
+  text-align: center;
+  width: 5rem;
+}
+
+.service img {
+  max-width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper {
+  max-width: 3.5rem;
+}
+
+/* Info */
+
+.info {
+  padding-right: 5%;
+  padding-bottom: 5rem;
+  width: 35%;
+}
+
+.info h4 {
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+/* -- Footer -- */
+
+footer {
+  align-content: center;
+  background-color: azure;
+  display: flex;
+  height: 9.5rem;
+  text-align: left;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+footer div {
+  padding: 4rem 0;
+}
